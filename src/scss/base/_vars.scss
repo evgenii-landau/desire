@@ -1,0 +1,26 @@
+:root {
+	--container-width: 1140px;
+	--container-padding: 15px;
+
+	--font-main: 'open_sansregular', sans-serif;
+	--font-main-2: 'open_sanssemibold', sans-serif;
+	--font-accent: 'montserratbold', serif;
+
+	--page-bg: #fff;
+	--text-color: #5A5A5A;
+	--accent: #363838;
+
+   --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}
+
+%title-font {
+	font-family: var(--font-accent);
+	font-weight: 700;
+}
