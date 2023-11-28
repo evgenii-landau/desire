@@ -12,3 +12,25 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+h1 {
+	@extend %title-font;
+	color: var(--accent);
+	font-size: 110px;
+	
+}
+
+h2 {
+	color: var(--accent);
+	@extend %title-font;
+	font-size: 60px;
+	line-height: 80px;
+}
+
+h3 {
+	@extend %title-font;
+	color: var(--accent);
+	text-align: center;
+	font-size: 36px;
+	line-height: 51px; 
+}

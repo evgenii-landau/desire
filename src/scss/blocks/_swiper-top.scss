@@ -1,0 +1,28 @@
+.top {
+	padding-bottom: 130px;
+	
+	&__swiper .swiper-pagination {
+		display: flex;
+		gap: 30px;
+		justify-content: center;
+	}
+
+	&__swiper .swiper-pagination-bullet {
+		background: #363838;
+		opacity: 1;
+	}
+
+	&__swiper .swiper-pagination-bullet-active {
+		background-color: #ffef35;
+	}
+}
+
+
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination {
+}
