@@ -30,9 +30,6 @@ function swiperTop() {
          //pageUp, pageDown
          pageUpDown: true,
       },
-		
-
-
 	});
 }
 

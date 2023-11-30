@@ -1,0 +1,104 @@
+.contact {
+	padding-bottom: 100px;
+
+	&__title {
+		line-height: 60px;
+		text-align: start;
+		position: relative;
+		padding-bottom: 40px;
+		margin-bottom: 40px;
+
+		&::after {
+			content: "";
+			
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+			width: 200px;
+			height: 2px;
+			
+			background: #6D7278;
+		}
+	}
+
+	&__content {
+		padding-left: 285px;
+	}
+
+	&__social {
+		margin-bottom: 20px;
+		display: flex;
+		column-gap: 35px;
+	}
+
+	&__social-item {}
+
+	&__social-link {
+		
+	}
+
+	&__social-img {}
+
+	&__description {
+		margin-bottom: 10px;
+
+		line-height: 28px;
+	}
+
+	&__tel {
+		color: var(--text-color);
+	}
+
+	&__st {}
+
+	&__city {
+		margin-bottom: 16px;
+	}
+
+	&__form {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	&__form-input {
+		width: 48%;
+		padding: 6px 17px;
+		margin-bottom: 13px;
+
+		border-radius: 20px;
+	}
+
+	&__form-area {
+		width: 100%;
+		padding: 14px 17px;
+		margin-bottom: 20px;
+		min-height: 125px;
+		resize: none;
+
+		border-radius: 24px;
+	}
+
+	&__form-input,
+	&__form-area {
+		border: 1px solid #DFDFDF;
+
+		&::placeholder {
+			color: #A1A1A1;
+			line-height: 28px; 
+		}
+	}
+
+	&__form-btn {
+		padding: 6px 60px;
+
+		color: #FFFFF0;
+		font-weight: 600;
+		line-height: 28px; 
+		border-radius: 21px;
+		background: var(--accent);
+	}
+}
+
+.info-email {
+}

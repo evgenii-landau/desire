@@ -1,0 +1,46 @@
+.contact-swiper {
+	margin-bottom: 100px;
+}
+.container-fluid {
+}
+.contact {
+
+	&__swiper .swiper-slide {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__swiper .swiper-pagination {
+		position: relative;
+		padding-top: 40px;
+		display: flex;
+		gap: 30px;
+		justify-content: center;
+	}
+
+	&__swiper .swiper-pagination-bullet {
+		background: #363838;
+		opacity: 1;
+	}
+
+	&__swiper .swiper-pagination-bullet-active {
+		background-color: #ffef35;
+	}
+
+		&__swiper {}
+
+		&__swiper-wrapper {}
+
+		&__swiper-slide {}
+
+
+}
+.swiper {
+	
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination {
+}

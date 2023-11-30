@@ -1,0 +1,32 @@
+.bread-crumbs {
+	position: relative;
+	z-index: 999;
+	padding: 13px 14px;
+
+	background: rgba(#DFDFDF, .5);
+
+	&__list {
+		display: flex;
+	}
+
+	&__item::after {
+		content: "/";
+		margin-left: -4px;
+		margin-right: 4px;
+	}
+
+	&__item:last-child::after {
+		display: none;	
+	}
+
+	&__link {
+		color: var(--text-color);
+		font-size: 14px;
+		line-height: 28px;
+	}
+}
+
+.bread-crumbs--mb {
+	margin-bottom: -55px;
+}
+

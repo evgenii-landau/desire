@@ -27,33 +27,6 @@
 		margin-bottom: 16px;
 	}
 
-	&__info-email {
-		display: inline-block;
-		padding-left: 30px;
-		margin-bottom: 22px;
-		position: relative;
-		color: var(--accent);
-		font-size: 14px;
-		font-weight: 600;
-		line-height: 28px; 
-		// opacity: 0.6px;
-
-		// transition: opacity 0.2s ease-in;
-
-		&::before {
-		content: "";
-		
-		position: absolute;
-		left: 0px;
-		top: 8px;
-		width: 16px;
-		height: 16px;
-		
-		background-image: url('./../img/footer/mail.svg');
-		background-repeat: no-repeat;}
-
-	}
-
 	&__form {
 		display: flex;
 		gap: 10px;
