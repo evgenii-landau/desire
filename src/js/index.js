@@ -6,7 +6,7 @@ swiperTop();
 
 import funcMixItUp from './modules/mixitup.js';
 
-if (window.location.pathname === '/about.html') {
+if (document.querySelector('.gallery__inner')) {
 	funcMixItUp();
 }
 
@@ -15,3 +15,6 @@ funcPopUp();
 
 import swiperContact from './modules/swiper.contact.js';
 swiperContact();
+
+import swiperBlog from './modules/swiper-blog.js';
+swiperBlog();

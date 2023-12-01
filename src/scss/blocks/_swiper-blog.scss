@@ -1,0 +1,92 @@
+.blog {
+
+	&__item {}
+
+	&__swiper .swiper-pagination {
+		position: relative;
+		padding-top: 50px;
+	}
+
+	&__swiper .swiper-button-next {
+		
+		width: 10px;
+		height: 17px;
+		rotate: 180deg;
+		background-image: url('./../img/blog/swiper/arrow.svg');
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: center;
+		
+		&::after {
+			display: none;
+		}
+	}
+
+	&__swiper .swiper-button-prev {
+		
+		width: 10px;
+		height: 17px;
+		background-image: url('./../img/blog/swiper/arrow.svg');
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: center;
+		
+		&::after {
+			display: none;
+		}
+	}
+
+	&__swiper .swiper-wrapper{
+	}
+
+	&__swiper .swiper-wrapper {
+		// width: 730px;
+	}
+
+	&__swiper-img {
+		// margin-bottom: 25px;
+	}
+
+	&__inner {}
+
+	&__item-info {
+		margin-bottom: 10px;
+	}
+
+	&__item-date,
+	&__item-author,
+	&__item-theme {
+		color: #707070;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 28px;
+	}
+
+	&__item-title {}
+
+	&__item-description {}
+
+	&__swiper-buttons {
+	}
+
+	&__swiper-btn-prev,
+	&__swiper-btn-next {
+	}
+
+	&__swiper-btn-next {
+	}
+
+	&__swiper-pagination {}
+
+}
+
+.article-swiper {
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination {
+}
